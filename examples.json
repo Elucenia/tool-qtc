@@ -1,0 +1,66 @@
+[
+  {
+    "label": "QT 400 ms, FC 60 bpm: as 4 fórmulas = 400 ms (RR = 1 s)",
+    "input": {
+      "qt": 400,
+      "fc": 60,
+      "sexo": "M"
+    },
+    "expected": {
+      "raw": {
+        "bazett": 400,
+        "fridericia": 400,
+        "framingham": 400,
+        "hodges": 400
+      },
+      "tol": 0.01,
+      "level": "low"
+    },
+    "originalInput": {
+      "qt": 400,
+      "fc": 60,
+      "sexo": "M"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "QT 360 ms, FC 100 bpm (mulher): Bazett 465 · Fridericia 427 · Framingham 422 · Hodges 430",
+    "input": {
+      "qt": 360,
+      "fc": 100,
+      "sexo": "F"
+    },
+    "expected": {
+      "raw": {
+        "bazett": 464.8,
+        "fridericia": 426.9,
+        "framingham": 421.6,
+        "hodges": 430
+      },
+      "tol": 0.2
+    },
+    "originalInput": {
+      "qt": 360,
+      "fc": 100,
+      "sexo": "F"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "QT 520 ms, FC 60 bpm: QTc > 500 ms, alto risco",
+    "input": {
+      "qt": 520,
+      "fc": 60,
+      "sexo": "M"
+    },
+    "expected": {
+      "level": "high"
+    },
+    "originalInput": {
+      "qt": 520,
+      "fc": 60,
+      "sexo": "M"
+    },
+    "expandedZeroOptions": []
+  }
+]

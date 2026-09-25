@@ -1,0 +1,198 @@
+{
+  "tool": {
+    "id": "qtc",
+    "title": "QT corrigido (QTc)",
+    "short": "Bazett, Fridericia, Framingham e Hodges",
+    "spec": [
+      "cardiologia",
+      "medicina-de-emergencia",
+      "psiquiatria"
+    ],
+    "tier": 1,
+    "desc": "Calcule o QT corrigido pela frequência cardíaca com as fórmulas de Bazett, Fridericia, Framingham e Hodges, com os limites de QT longo e curto.",
+    "lead": "Corrige o intervalo QT pela frequência cardíaca com as quatro fórmulas mais usadas e compara com os limites de normalidade.",
+    "fields": [
+      [
+        "qt",
+        "Intervalo QT medido",
+        "num",
+        {
+          "min": 200,
+          "max": 800,
+          "unit": "ms",
+          "ph": "400"
+        }
+      ],
+      [
+        "fc",
+        "Frequência cardíaca",
+        "num",
+        {
+          "min": 30,
+          "max": 250,
+          "unit": "bpm",
+          "ph": "75"
+        }
+      ],
+      [
+        "sexo",
+        "Sexo",
+        "radio",
+        {
+          "opts": {
+            "F": "Feminino",
+            "M": "Masculino"
+          }
+        }
+      ]
+    ],
+    "formula": "<p>RR (s) = 60 ÷ FC.</p><ul><li><strong>Bazett:</strong> QTc = QT ÷ √RR</li><li><strong>Fridericia:</strong> QTc = QT ÷ ∛RR</li><li><strong>Framingham:</strong> QTc = QT + 154 × (1 − RR)</li><li><strong>Hodges:</strong> QTc = QT + 1,75 × (FC − 60)</li></ul>",
+    "table": [
+      [
+        "QTc",
+        "Interpretação"
+      ],
+      [
+        "≥ 450 ms (homens) / ≥ 460 ms (mulheres)",
+        "QT prolongado"
+      ],
+      [
+        "&gt; 500 ms",
+        "Alto risco de torsades de pointes"
+      ],
+      [
+        "≤ 390 ms",
+        "QT curto (≤ 340 ms: suspeitar de síndrome do QT curto)"
+      ]
+    ],
+    "tips": [
+      "Bazett superestima o QTc com FC &gt; 90 bpm e subestima com FC &lt; 60 bpm: nesses casos prefira Fridericia ou Framingham.",
+      "Meça o QT na derivação com a onda T mais longa (geralmente DII ou V5), pelo método da tangente, e faça a média de 3 a 5 batimentos.",
+      "Na fibrilação atrial, use a média de vários ciclos RR; com QRS alargado (&gt; 120 ms), considere o JT ou fórmulas ajustadas.",
+      "Aumento do QTc &gt; 60 ms em relação ao basal, ou QTc &gt; 500 ms, pede rever medicações que prolongam o QT e corrigir potássio e magnésio."
+    ],
+    "sources": [
+      [
+        "Rautaharju PM et al. AHA/ACCF/HRS Recommendations for the Standardization and Interpretation of the Electrocardiogram, Part IV: The ST Segment, T and U Waves, and the QT Interval. Circulation, 2009.",
+        "https://doi.org/10.1161/CIRCULATIONAHA.108.191096"
+      ],
+      [
+        "Vandenberk B et al. Which QT correction formulae to use for QT monitoring? J Am Heart Assoc, 2016.",
+        "https://doi.org/10.1161/JAHA.116.003264"
+      ]
+    ],
+    "cases": [
+      [
+        "QT 400 ms, FC 60 bpm: as 4 fórmulas = 400 ms (RR = 1 s)",
+        {
+          "qt": 400,
+          "fc": 60,
+          "sexo": "M"
+        },
+        {
+          "raw": {
+            "bazett": 400,
+            "fridericia": 400,
+            "framingham": 400,
+            "hodges": 400
+          },
+          "tol": 0.01,
+          "level": "low"
+        }
+      ],
+      [
+        "QT 360 ms, FC 100 bpm (mulher): Bazett 465 · Fridericia 427 · Framingham 422 · Hodges 430",
+        {
+          "qt": 360,
+          "fc": 100,
+          "sexo": "F"
+        },
+        {
+          "raw": {
+            "bazett": 464.8,
+            "fridericia": 426.9,
+            "framingham": 421.6,
+            "hodges": 430
+          },
+          "tol": 0.2
+        }
+      ],
+      [
+        "QT 520 ms, FC 60 bpm: QTc > 500 ms, alto risco",
+        {
+          "qt": 520,
+          "fc": 60,
+          "sexo": "M"
+        },
+        {
+          "level": "high"
+        }
+      ]
+    ],
+    "batch": "cardiologia",
+    "kind": "Calculadora",
+    "config": null,
+    "areaId": "cardiotoracica",
+    "clinicalReview": "pending",
+    "sourceReview": "pending",
+    "sourceFile": "app/content/ferramentas/cardiologia.php",
+    "arithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 3,
+      "passed": 3,
+      "failures": []
+    },
+    "independentArithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 2,
+      "passed": 2,
+      "cases": [
+        {
+          "label": "RR=1s conserva QT nas quatro fórmulas",
+          "input": {
+            "qt": 360,
+            "fc": 60,
+            "sexo": "F"
+          },
+          "expected": {
+            "bazett": 360,
+            "fridericia": 360,
+            "framingham": 360,
+            "hodges": 360
+          },
+          "status": "passed",
+          "failures": []
+        },
+        {
+          "label": "RR=0,5s verifica unidades s e ms",
+          "input": {
+            "qt": 300,
+            "fc": 120,
+            "sexo": "M"
+          },
+          "expected": {
+            "bazett": 424.26406871192853,
+            "fridericia": 377.97631496846196,
+            "framingham": 377,
+            "hodges": 405
+          },
+          "status": "passed",
+          "failures": []
+        }
+      ]
+    }
+  },
+  "review": {
+    "status": "needs-review",
+    "reason": "Revisão documental e clínica independente pendente.",
+    "clinicalValidation": "not-performed"
+  },
+  "sourceFile": {
+    "path": "app/content/ferramentas/cardiologia.php",
+    "sha256": "ed536451dd02922a7f840f2c9ce575be004cddb227f60426b7a52cf1b0e94ec0",
+    "bytes": 61303
+  },
+  "clinicalValidation": "not-performed"
+}
