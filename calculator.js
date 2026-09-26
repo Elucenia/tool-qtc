@@ -1,11 +1,11 @@
-/* tool-qtc · Elucenia · https://github.com/Elucenia/tool-qtc
-   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+/* tool-qtc · ELUCENIA · https://github.com/Elucenia/tool-qtc
+   Copyright (c) 2026 ELUCENIA · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
    Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"qtc","title":"QT corrigido (QTc)","fields":[["qt","Intervalo QT medido","num",{"min":200,"max":800,"unit":"ms","ph":"400"}],["fc","Frequência cardíaca","num",{"min":30,"max":250,"unit":"bpm","ph":"75"}],["sexo","Sexo","radio",{"opts":{"F":"Feminino","M":"Masculino"}}]],"config":null,"reviewStatus":"needs-review","clinicalValidation":"not-performed"});
 const window={};
-/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};

@@ -1,7 +1,7 @@
 {
   "name": "@elucenia/tool-qtc",
   "version": "0.1.0",
-  "description": "QT corrigido (QTc) · Elucenia: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
+  "description": "QT corrigido (QTc) · ELUCENIA: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
   "keywords": [
     "elucenia",
     "medical-calculator",
