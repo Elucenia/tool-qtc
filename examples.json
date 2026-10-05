@@ -1,6 +1,14 @@
 [
   {
-    "label": "QT 400 ms, FC 60 bpm: as 4 fórmulas = 400 ms (RR = 1 s)",
+    "id": "qtc",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "QT 400 ms, FC 60 bpm: as 4 fórmulas = 400 ms (RR = 1 s)",
+    "originalInput": {
+      "qt": 400,
+      "fc": 60,
+      "sexo": "M"
+    },
     "input": {
       "qt": 400,
       "fc": 60,
@@ -16,15 +24,38 @@
       "tol": 0.01,
       "level": "low"
     },
-    "originalInput": {
-      "qt": 400,
-      "fc": 60,
-      "sexo": "M"
+    "recordedResult": {
+      "main": [
+        "400",
+        "ms"
+      ],
+      "label": "QTc de Fridericia (referência para esta FC)",
+      "raw": {
+        "bazett": 400,
+        "fridericia": 400,
+        "framingham": 400,
+        "hodges": 400
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "QT 360 ms, FC 100 bpm (mulher): Bazett 465 · Fridericia 427 · Framingham 422 · Hodges 430",
+    "id": "qtc",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "QT 360 ms, FC 100 bpm (mulher): Bazett 465 · Fridericia 427 · Framingham 422 · Hodges 430",
+    "originalInput": {
+      "qt": 360,
+      "fc": 100,
+      "sexo": "F"
+    },
     "input": {
       "qt": 360,
       "fc": 100,
@@ -39,15 +70,38 @@
       },
       "tol": 0.2
     },
-    "originalInput": {
-      "qt": 360,
-      "fc": 100,
-      "sexo": "F"
+    "recordedResult": {
+      "main": [
+        "427",
+        "ms"
+      ],
+      "label": "QTc de Fridericia (referência para esta FC)",
+      "raw": {
+        "bazett": 464.75800154489,
+        "fridericia": 426.8271965388075,
+        "framingham": 421.6,
+        "hodges": 430
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "QT 520 ms, FC 60 bpm: QTc > 500 ms, alto risco",
+    "id": "qtc",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "QT 520 ms, FC 60 bpm: QTc > 500 ms, alto risco",
+    "originalInput": {
+      "qt": 520,
+      "fc": 60,
+      "sexo": "M"
+    },
     "input": {
       "qt": 520,
       "fc": 60,
@@ -56,11 +110,26 @@
     "expected": {
       "level": "high"
     },
-    "originalInput": {
-      "qt": 520,
-      "fc": 60,
-      "sexo": "M"
+    "recordedResult": {
+      "main": [
+        "520",
+        "ms"
+      ],
+      "label": "QTc de Fridericia (referência para esta FC)",
+      "raw": {
+        "bazett": 520,
+        "fridericia": 520,
+        "framingham": 520,
+        "hodges": 520
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]

@@ -3,14 +3,14 @@
     "id": "qtc",
     "title": "QT corrigido (QTc)",
     "short": "Bazett, Fridericia, Framingham e Hodges",
+    "desc": "Calcule o QT corrigido pela frequência cardíaca com as fórmulas de Bazett, Fridericia, Framingham e Hodges, com os limites de QT longo e curto.",
+    "lead": "Corrige o intervalo QT pela frequência cardíaca com as quatro fórmulas mais usadas e compara com os limites de normalidade.",
+    "kind": "Calculadora",
     "spec": [
       "cardiologia",
       "medicina-de-emergencia",
       "psiquiatria"
     ],
-    "tier": 1,
-    "desc": "Calcule o QT corrigido pela frequência cardíaca com as fórmulas de Bazett, Fridericia, Framingham e Hodges, com os limites de QT longo e curto.",
-    "lead": "Corrige o intervalo QT pela frequência cardíaca com as quatro fórmulas mais usadas e compara com os limites de normalidade.",
     "fields": [
       [
         "qt",
@@ -47,30 +47,6 @@
       ]
     ],
     "formula": "<p>RR (s) = 60 ÷ FC.</p><ul><li><strong>Bazett:</strong> QTc = QT ÷ √RR</li><li><strong>Fridericia:</strong> QTc = QT ÷ ∛RR</li><li><strong>Framingham:</strong> QTc = QT + 154 × (1 − RR)</li><li><strong>Hodges:</strong> QTc = QT + 1,75 × (FC − 60)</li></ul>",
-    "table": [
-      [
-        "QTc",
-        "Interpretação"
-      ],
-      [
-        "≥ 450 ms (homens) / ≥ 460 ms (mulheres)",
-        "QT prolongado"
-      ],
-      [
-        "&gt; 500 ms",
-        "Alto risco de torsades de pointes"
-      ],
-      [
-        "≤ 390 ms",
-        "QT curto (≤ 340 ms: suspeitar de síndrome do QT curto)"
-      ]
-    ],
-    "tips": [
-      "Bazett superestima o QTc com FC &gt; 90 bpm e subestima com FC &lt; 60 bpm: nesses casos prefira Fridericia ou Framingham.",
-      "Meça o QT na derivação com a onda T mais longa (geralmente DII ou V5), pelo método da tangente, e faça a média de 3 a 5 batimentos.",
-      "Na fibrilação atrial, use a média de vários ciclos RR; com QRS alargado (&gt; 120 ms), considere o JT ou fórmulas ajustadas.",
-      "Aumento do QTc &gt; 60 ms em relação ao basal, ou QTc &gt; 500 ms, pede rever medicações que prolongam o QT e corrigir potássio e magnésio."
-    ],
     "sources": [
       [
         "Rautaharju PM et al. AHA/ACCF/HRS Recommendations for the Standardization and Interpretation of the Electrocardiogram, Part IV: The ST Segment, T and U Waves, and the QT Interval. Circulation, 2009.",
@@ -79,6 +55,10 @@
       [
         "Vandenberk B et al. Which QT correction formulae to use for QT monitoring? J Am Heart Assoc, 2016.",
         "https://doi.org/10.1161/JAHA.116.003264"
+      ],
+      [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4937268/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4937268/"
       ]
     ],
     "cases": [
@@ -129,9 +109,6 @@
         }
       ]
     ],
-    "kind": "Calculadora",
-    "config": null,
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -144,46 +121,152 @@
       "testedAt": "2026-09-25",
       "total": 2,
       "passed": 2,
-      "cases": [
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "QTc/Bazett 1920, Fridericia 1920, Framingham 1992, Hodges 1983; QTms/RRseg; referências AHA 2009 e Vandenberk 2016",
+    "implementationVersion": "qtc@native-2026-10-03+1bb40904dc12",
+    "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/19228821/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "RR (s) = 60 ÷ FC. Bazett: QTc = QT ÷ √RR Fridericia: QTc = QT ÷ ∛RR Framingham: QTc = QT + 154 × (1 − RR) Hodges: QTc = QT + 1,75 × (FC − 60)",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "qt",
+            "label": "Intervalo QT medido",
+            "type": "num",
+            "min": 200,
+            "max": 800,
+            "unit": "ms",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "fc",
+            "label": "Frequência cardíaca",
+            "type": "num",
+            "min": 30,
+            "max": 250,
+            "unit": "bpm",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "sexo",
+            "label": "Sexo",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "F": "Feminino",
+              "M": "Masculino"
+            }
+          }
+        ],
+        "hash": "3ac5f5febc57b0112ce3d9a313c8227170866351524ed6014e739468fa9e191b"
+      },
+      "sourceEditions": [
         {
-          "label": "RR=1s conserva QT nas quatro fórmulas",
-          "input": {
-            "qt": 360,
-            "fc": 60,
-            "sexo": "F"
+          "citation": "Rautaharju PM et al. AHA/ACCF/HRS Recommendations for the Standardization and Interpretation of the Electrocardiogram, Part IV: The ST Segment, T and U Waves, and the QT Interval. Circulation, 2009.",
+          "url": "https://doi.org/10.1161/CIRCULATIONAHA.108.191096",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "AHA/ACCF/HRS recommendations for the standardization and interpretation of the electrocardiogram: part IV: the ST segment, T and U waves, and the QT interval: a scientific statement from the American Heart Association Electrocardiography and Arrhythmias Committee, Council on Clinical Cardiology; the American College of Cardiology Foundation; and the Heart Rhythm Society: endorsed by the International Society for Computerized Electrocardiology.",
+            "year": "2009",
+            "firstPublicationDate": "2009-02-19",
+            "doi": "10.1161/circulationaha.108.191096",
+            "pmid": "19228821",
+            "journal": "Circulation",
+            "authors": "Rautaharju PM, Surawicz B, Gettes LS, Bailey JJ, Childers R, Deal BJ, Gorgels A, Hancock EW, Josephson M, Kligfield P, Kors JA, Macfarlane P, Mason JW, Mirvis DM, Okin P, Pahlm O, van Herpen G, Wagner GS, Wellens H, American Heart Association Electrocardiography and Arrhythmias Committee, Council on Clinical Cardiology, American College of Cardiology Foundation, Heart Rhythm Society."
           },
-          "expected": {
-            "bazett": 360,
-            "fridericia": 360,
-            "framingham": 360,
-            "hodges": 360
-          },
-          "status": "passed",
-          "failures": []
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/19228821/",
+          "abstractAvailable": false,
+          "fullTextSha256": null,
+          "abstractSha256": null,
+          "matchedBy": "exact-DOI-or-PMID"
         },
         {
-          "label": "RR=0,5s verifica unidades s e ms",
-          "input": {
-            "qt": 300,
-            "fc": 120,
-            "sexo": "M"
+          "citation": "Vandenberk B et al. Which QT correction formulae to use for QT monitoring? J Am Heart Assoc, 2016.",
+          "url": "https://doi.org/10.1161/JAHA.116.003264",
+          "class": "primary-publication-full-text-retrieved",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": true,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Which QT Correction Formulae to Use for QT Monitoring?",
+            "year": "2016",
+            "firstPublicationDate": "2016-06-17",
+            "doi": "10.1161/jaha.116.003264",
+            "pmid": "27317349",
+            "pmcid": "PMC4937268",
+            "journal": "Journal of the American Heart Association",
+            "authors": "Vandenberk B, Vandael E, Robyns T, Vandenberghe J, Garweg C, Foulon V, Ector J, Willems R."
           },
-          "expected": {
-            "bazett": 424.26406871192853,
-            "fridericia": 377.97631496846196,
-            "framingham": 377,
-            "hodges": 405
-          },
-          "status": "passed",
-          "failures": []
+          "primaryPublicationUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4937268/",
+          "abstractAvailable": true,
+          "fullTextSha256": "0866a7417eac06e470ad88912d4aa212210cd03212d36cc55b64d5ea622c0d39",
+          "abstractSha256": "49ce59cadc5b924c2c79c12b6ac1f4bbdb82c92014d49b79293be8febe521f07",
+          "matchedBy": "exact-DOI-or-PMID"
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-09-25",
+        "total": 2,
+        "passed": 2,
+        "publicCandidateBankOmitted": true
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "1bb40904dc1255f6287149d7550c264312984c4620eaf06fff06b33c1fcbd3df"
+    },
+    "limits": "O estudo Vandenberk 2016 comparou correções do QT em adultos com ritmo sinusal, QRS estreito e frequência cardíaca menor que 90 bpm, em análise retrospectiva de um centro. Esses resultados não comprovam desempenho equivalente em fibrilação atrial, distúrbios da condução ou todas as frequências aceitas pelo formulário. Bazett pode superestimar o QTc em frequências altas e subestimá-lo em frequências baixas. A escolha da correção e a interpretação exigem contexto eletrocardiográfico; um valor isolado não determina tratamento.",
+    "sourceLimitEvidence": {
+      "checkedAt": "2026-10-04T02:52:03.187Z",
+      "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+      "sourceReviewFile": "remaining-native-population-limits-review.json",
+      "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+      "readingOutcome": "review-outcome-recorded",
+      "unresolved": [
+        "2018 erratum content unavailable; no conformance approval inferred."
+      ],
+      "fullMethodConformanceReviewed": false,
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "primarySupplements": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4937268/",
+          "scope": "Original2016 Methods/QTc-RR comparison/Limitations read.2018 erratum identity found; content blocked by CAPTCHA and not certified."
         }
       ]
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/qtc/calculator.js",
+    "bytes": 5273,
+    "sha256": "1bb40904dc1255f6287149d7550c264312984c4620eaf06fff06b33c1fcbd3df"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "61a5925933d86f3567d87cc87c587ee49c04331e9fba4b9e6eb0135da85e6176",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 2,
+      "sha256": "78e8452e8691552a2409ad0de9c17bb60b50d83062099ab7e96efa031a6896d7",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    },
+    {
+      "rows": 2,
+      "sha256": "78e8452e8691552a2409ad0de9c17bb60b50d83062099ab7e96efa031a6896d7",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }

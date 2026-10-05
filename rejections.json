@@ -1,0 +1,334 @@
+[
+  {
+    "name": "Reject null input",
+    "input": null,
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject array input",
+    "input": [],
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject string input",
+    "input": "invalid",
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject numeric input",
+    "input": 1,
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field qt",
+    "input": {
+      "fc": 60,
+      "sexo": "M"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "qt"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field qt",
+    "input": {
+      "qt": "",
+      "fc": 60,
+      "sexo": "M"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "qt"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"NaN\" qt",
+    "input": {
+      "qt": "NaN",
+      "fc": 60,
+      "sexo": "M"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "qt"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"Infinity\" qt",
+    "input": {
+      "qt": "Infinity",
+      "fc": 60,
+      "sexo": "M"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "qt"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"1e309\" qt",
+    "input": {
+      "qt": "1e309",
+      "fc": 60,
+      "sexo": "M"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "qt"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"invalid\" qt",
+    "input": {
+      "qt": "invalid",
+      "fc": 60,
+      "sexo": "M"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "qt"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric {} qt",
+    "input": {
+      "qt": {},
+      "fc": 60,
+      "sexo": "M"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "qt"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric true qt",
+    "input": {
+      "qt": true,
+      "fc": 60,
+      "sexo": "M"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "qt"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject below documented minimum qt",
+    "input": {
+      "qt": 180,
+      "fc": 60,
+      "sexo": "M"
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "qt"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject above documented maximum qt",
+    "input": {
+      "qt": 880,
+      "fc": 60,
+      "sexo": "M"
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "qt"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field fc",
+    "input": {
+      "qt": 400,
+      "sexo": "M"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "fc"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field fc",
+    "input": {
+      "qt": 400,
+      "fc": "",
+      "sexo": "M"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "fc"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"NaN\" fc",
+    "input": {
+      "qt": 400,
+      "fc": "NaN",
+      "sexo": "M"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "fc"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"Infinity\" fc",
+    "input": {
+      "qt": 400,
+      "fc": "Infinity",
+      "sexo": "M"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "fc"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"1e309\" fc",
+    "input": {
+      "qt": 400,
+      "fc": "1e309",
+      "sexo": "M"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "fc"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"invalid\" fc",
+    "input": {
+      "qt": 400,
+      "fc": "invalid",
+      "sexo": "M"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "fc"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric {} fc",
+    "input": {
+      "qt": 400,
+      "fc": {},
+      "sexo": "M"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "fc"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric true fc",
+    "input": {
+      "qt": 400,
+      "fc": true,
+      "sexo": "M"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "fc"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject below documented minimum fc",
+    "input": {
+      "qt": 400,
+      "fc": 27,
+      "sexo": "M"
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "fc"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject above documented maximum fc",
+    "input": {
+      "qt": 400,
+      "fc": 275,
+      "sexo": "M"
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "fc"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field sexo",
+    "input": {
+      "qt": 400,
+      "fc": 60
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "sexo"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field sexo",
+    "input": {
+      "qt": 400,
+      "fc": 60,
+      "sexo": ""
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "sexo"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject undocumented option sexo",
+    "input": {
+      "qt": 400,
+      "fc": 60,
+      "sexo": "__ELUCENIA_INVALID_OPTION__"
+    },
+    "expected": {
+      "code": "INVALID_OPTION",
+      "field": "sexo"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  }
+]
