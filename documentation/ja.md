@@ -82,3 +82,46 @@ tool.jsonには出典、版、確認範囲が記録されています。examples
 Apache-2.0はELUCENIAのコードにのみ適用されます。評価尺度等、出版物、翻訳、データの権利は、それぞれの権利者に帰属します。LICENSEとNOTICEを保持してください。
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## 記録された結果
+
+以下の情報は、合成例に対する手法の出力を保持したものです。独立した臨床的検証を示すものではありません。
+
+### 1
+
+QTc正常
+
+| 結果の詳細 | |
+| --- | --- |
+| Bazett | 400 ms |
+| Fridericia | 400 ms |
+| Framingham | 400 ms |
+| Hodges | 400 ms |
+| RR間隔 | 1000 ms |
+
+
+### 2
+
+QTc正常
+
+| 結果の詳細 | |
+| --- | --- |
+| Bazett | 465 ms |
+| Fridericia | 427 ms |
+| Framingham | 422 ms |
+| Hodges | 430 ms |
+| RR間隔 | 600 ms |
+
+
+### 3
+
+QTcが著明延長（> 500 ms）：不整脈リスクが高い
+
+| 結果の詳細 | |
+| --- | --- |
+| Bazett | 520 ms |
+| Fridericia | 520 ms |
+| Framingham | 520 ms |
+| Hodges | 520 ms |
+| RR間隔 | 1000 ms |
+

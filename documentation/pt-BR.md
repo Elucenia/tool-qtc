@@ -82,3 +82,46 @@ Resultado da fórmula ou classificação. Interpretação, conduta e aplicabilid
 Apache-2.0 aplica-se somente ao código da ELUCENIA. Os instrumentos, publicações, traduções e dados mantêm os direitos dos respectivos titulares. Preserve LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+As informações abaixo preservam as saídas do método para exemplos sintéticos. Não constituem validação clínica independente.
+
+### 1
+
+QTc normal
+
+| Detalhes do resultado | |
+| --- | --- |
+| Bazett | 400 ms |
+| Fridericia | 400 ms |
+| Framingham | 400 ms |
+| Hodges | 400 ms |
+| Intervalo RR | 1.000 ms |
+
+
+### 2
+
+QTc normal
+
+| Detalhes do resultado | |
+| --- | --- |
+| Bazett | 465 ms |
+| Fridericia | 427 ms |
+| Framingham | 422 ms |
+| Hodges | 430 ms |
+| Intervalo RR | 600 ms |
+
+
+### 3
+
+QTc muito prolongado (> 500 ms): alto risco de arritmia
+
+| Detalhes do resultado | |
+| --- | --- |
+| Bazett | 520 ms |
+| Fridericia | 520 ms |
+| Framingham | 520 ms |
+| Hodges | 520 ms |
+| Intervalo RR | 1.000 ms |
+

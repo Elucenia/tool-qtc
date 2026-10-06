@@ -1,0 +1,2772 @@
+{
+  "id": "qtc",
+  "implementationVersion": "qtc@native-2026-10-05+2014b0da4274",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "QT 400 ms, FC 60 bpm: as 4 fórmulas = 400 ms (RR = 1 s)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "Intervalo RR",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "1.000 ms",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "QTc normal",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "QT 360 ms, FC 100 bpm (mulher): Bazett 465 · Fridericia 427 · Framingham 422 · Hodges 430",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "465 ms",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "427 ms",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "422 ms",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "430 ms",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "Intervalo RR",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "600 ms",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "QTc normal",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "QT 520 ms, FC 60 bpm: QTc > 500 ms, alto risco",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "Intervalo RR",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "1.000 ms",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "QTc muito prolongado (> 500 ms): alto risco de arritmia",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "QT 400 ms, FC 60 bpm: as 4 fórmulas = 400 ms (RR = 1 s)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "en",
+                "template": "documented-authored-3b140e85e5362de21283"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "en",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "en",
+                "template": "documented-authored-5fbc7ba30a68cbb8950b"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "en",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "en",
+                "template": "documented-authored-522a560400da9ebe4198"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "en",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "en",
+                "template": "documented-authored-697b9d8d75df522ead9e"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "en",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "RR interval",
+                "locale": "en",
+                "template": "documented-authored-bba02ac11c176a961c19"
+              },
+              "value": {
+                "text": "1000 ms",
+                "locale": "en",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  1000
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "normal QTc",
+            "locale": "en",
+            "template": "documented-authored-05f280740a9c2be5f7e2"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "QT 360 ms, FC 100 bpm (mulher): Bazett 465 · Fridericia 427 · Framingham 422 · Hodges 430",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "en",
+                "template": "documented-authored-3b140e85e5362de21283"
+              },
+              "value": {
+                "text": "465 ms",
+                "locale": "en",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  465
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "en",
+                "template": "documented-authored-5fbc7ba30a68cbb8950b"
+              },
+              "value": {
+                "text": "427 ms",
+                "locale": "en",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  427
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "en",
+                "template": "documented-authored-522a560400da9ebe4198"
+              },
+              "value": {
+                "text": "422 ms",
+                "locale": "en",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  422
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "en",
+                "template": "documented-authored-697b9d8d75df522ead9e"
+              },
+              "value": {
+                "text": "430 ms",
+                "locale": "en",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  430
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "RR interval",
+                "locale": "en",
+                "template": "documented-authored-bba02ac11c176a961c19"
+              },
+              "value": {
+                "text": "600 ms",
+                "locale": "en",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  600
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "normal QTc",
+            "locale": "en",
+            "template": "documented-authored-05f280740a9c2be5f7e2"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "QT 520 ms, FC 60 bpm: QTc > 500 ms, alto risco",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "en",
+                "template": "documented-authored-3b140e85e5362de21283"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "en",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "en",
+                "template": "documented-authored-5fbc7ba30a68cbb8950b"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "en",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "en",
+                "template": "documented-authored-522a560400da9ebe4198"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "en",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "en",
+                "template": "documented-authored-697b9d8d75df522ead9e"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "en",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "RR interval",
+                "locale": "en",
+                "template": "documented-authored-bba02ac11c176a961c19"
+              },
+              "value": {
+                "text": "1000 ms",
+                "locale": "en",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  1000
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Very prolonged QTc (> 500 ms): high risk of arrhythmia",
+            "locale": "en",
+            "template": "documented-authored-dedbb964ef870a11bfbd"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "QT 400 ms, FC 60 bpm: as 4 fórmulas = 400 ms (RR = 1 s)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "es",
+                "template": "documented-authored-3b140e85e5362de21283"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "es",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "es",
+                "template": "documented-authored-5fbc7ba30a68cbb8950b"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "es",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "es",
+                "template": "documented-authored-522a560400da9ebe4198"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "es",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "es",
+                "template": "documented-authored-697b9d8d75df522ead9e"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "es",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "Intervalo RR",
+                "locale": "es",
+                "template": "documented-authored-bba02ac11c176a961c19"
+              },
+              "value": {
+                "text": "1000 ms",
+                "locale": "es",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  1000
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "QTc normal",
+            "locale": "es",
+            "template": "documented-authored-05f280740a9c2be5f7e2"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "QT 360 ms, FC 100 bpm (mulher): Bazett 465 · Fridericia 427 · Framingham 422 · Hodges 430",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "es",
+                "template": "documented-authored-3b140e85e5362de21283"
+              },
+              "value": {
+                "text": "465 ms",
+                "locale": "es",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  465
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "es",
+                "template": "documented-authored-5fbc7ba30a68cbb8950b"
+              },
+              "value": {
+                "text": "427 ms",
+                "locale": "es",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  427
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "es",
+                "template": "documented-authored-522a560400da9ebe4198"
+              },
+              "value": {
+                "text": "422 ms",
+                "locale": "es",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  422
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "es",
+                "template": "documented-authored-697b9d8d75df522ead9e"
+              },
+              "value": {
+                "text": "430 ms",
+                "locale": "es",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  430
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "Intervalo RR",
+                "locale": "es",
+                "template": "documented-authored-bba02ac11c176a961c19"
+              },
+              "value": {
+                "text": "600 ms",
+                "locale": "es",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  600
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "QTc normal",
+            "locale": "es",
+            "template": "documented-authored-05f280740a9c2be5f7e2"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "QT 520 ms, FC 60 bpm: QTc > 500 ms, alto risco",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "es",
+                "template": "documented-authored-3b140e85e5362de21283"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "es",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "es",
+                "template": "documented-authored-5fbc7ba30a68cbb8950b"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "es",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "es",
+                "template": "documented-authored-522a560400da9ebe4198"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "es",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "es",
+                "template": "documented-authored-697b9d8d75df522ead9e"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "es",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "Intervalo RR",
+                "locale": "es",
+                "template": "documented-authored-bba02ac11c176a961c19"
+              },
+              "value": {
+                "text": "1000 ms",
+                "locale": "es",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  1000
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "QTc muy prolongado (> 500 ms): alto riesgo de arritmia",
+            "locale": "es",
+            "template": "documented-authored-dedbb964ef870a11bfbd"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "QT 400 ms, FC 60 bpm: as 4 fórmulas = 400 ms (RR = 1 s)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "fr",
+                "template": "documented-authored-3b140e85e5362de21283"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "fr",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "fr",
+                "template": "documented-authored-5fbc7ba30a68cbb8950b"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "fr",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "fr",
+                "template": "documented-authored-522a560400da9ebe4198"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "fr",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "fr",
+                "template": "documented-authored-697b9d8d75df522ead9e"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "fr",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "Intervalle RR",
+                "locale": "fr",
+                "template": "documented-authored-bba02ac11c176a961c19"
+              },
+              "value": {
+                "text": "1000 ms",
+                "locale": "fr",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  1000
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "QTc normal",
+            "locale": "fr",
+            "template": "documented-authored-05f280740a9c2be5f7e2"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "QT 360 ms, FC 100 bpm (mulher): Bazett 465 · Fridericia 427 · Framingham 422 · Hodges 430",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "fr",
+                "template": "documented-authored-3b140e85e5362de21283"
+              },
+              "value": {
+                "text": "465 ms",
+                "locale": "fr",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  465
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "fr",
+                "template": "documented-authored-5fbc7ba30a68cbb8950b"
+              },
+              "value": {
+                "text": "427 ms",
+                "locale": "fr",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  427
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "fr",
+                "template": "documented-authored-522a560400da9ebe4198"
+              },
+              "value": {
+                "text": "422 ms",
+                "locale": "fr",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  422
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "fr",
+                "template": "documented-authored-697b9d8d75df522ead9e"
+              },
+              "value": {
+                "text": "430 ms",
+                "locale": "fr",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  430
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "Intervalle RR",
+                "locale": "fr",
+                "template": "documented-authored-bba02ac11c176a961c19"
+              },
+              "value": {
+                "text": "600 ms",
+                "locale": "fr",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  600
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "QTc normal",
+            "locale": "fr",
+            "template": "documented-authored-05f280740a9c2be5f7e2"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "QT 520 ms, FC 60 bpm: QTc > 500 ms, alto risco",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "fr",
+                "template": "documented-authored-3b140e85e5362de21283"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "fr",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "fr",
+                "template": "documented-authored-5fbc7ba30a68cbb8950b"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "fr",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "fr",
+                "template": "documented-authored-522a560400da9ebe4198"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "fr",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "fr",
+                "template": "documented-authored-697b9d8d75df522ead9e"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "fr",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "Intervalle RR",
+                "locale": "fr",
+                "template": "documented-authored-bba02ac11c176a961c19"
+              },
+              "value": {
+                "text": "1000 ms",
+                "locale": "fr",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  1000
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "QTc très prolongé (> 500 ms) : risque élevé d’arythmie",
+            "locale": "fr",
+            "template": "documented-authored-dedbb964ef870a11bfbd"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "QT 400 ms, FC 60 bpm: as 4 fórmulas = 400 ms (RR = 1 s)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "de",
+                "template": "documented-authored-3b140e85e5362de21283"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "de",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "de",
+                "template": "documented-authored-5fbc7ba30a68cbb8950b"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "de",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "de",
+                "template": "documented-authored-522a560400da9ebe4198"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "de",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "de",
+                "template": "documented-authored-697b9d8d75df522ead9e"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "de",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "RR-Intervall",
+                "locale": "de",
+                "template": "documented-authored-bba02ac11c176a961c19"
+              },
+              "value": {
+                "text": "1000 ms",
+                "locale": "de",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  1000
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Normales QTc",
+            "locale": "de",
+            "template": "documented-authored-05f280740a9c2be5f7e2"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "QT 360 ms, FC 100 bpm (mulher): Bazett 465 · Fridericia 427 · Framingham 422 · Hodges 430",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "de",
+                "template": "documented-authored-3b140e85e5362de21283"
+              },
+              "value": {
+                "text": "465 ms",
+                "locale": "de",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  465
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "de",
+                "template": "documented-authored-5fbc7ba30a68cbb8950b"
+              },
+              "value": {
+                "text": "427 ms",
+                "locale": "de",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  427
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "de",
+                "template": "documented-authored-522a560400da9ebe4198"
+              },
+              "value": {
+                "text": "422 ms",
+                "locale": "de",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  422
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "de",
+                "template": "documented-authored-697b9d8d75df522ead9e"
+              },
+              "value": {
+                "text": "430 ms",
+                "locale": "de",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  430
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "RR-Intervall",
+                "locale": "de",
+                "template": "documented-authored-bba02ac11c176a961c19"
+              },
+              "value": {
+                "text": "600 ms",
+                "locale": "de",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  600
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Normales QTc",
+            "locale": "de",
+            "template": "documented-authored-05f280740a9c2be5f7e2"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "QT 520 ms, FC 60 bpm: QTc > 500 ms, alto risco",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "de",
+                "template": "documented-authored-3b140e85e5362de21283"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "de",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "de",
+                "template": "documented-authored-5fbc7ba30a68cbb8950b"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "de",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "de",
+                "template": "documented-authored-522a560400da9ebe4198"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "de",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "de",
+                "template": "documented-authored-697b9d8d75df522ead9e"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "de",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "RR-Intervall",
+                "locale": "de",
+                "template": "documented-authored-bba02ac11c176a961c19"
+              },
+              "value": {
+                "text": "1000 ms",
+                "locale": "de",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  1000
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Stark verlängertes QTc (> 500 ms): hohes Arrhythmierisiko",
+            "locale": "de",
+            "template": "documented-authored-dedbb964ef870a11bfbd"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "QT 400 ms, FC 60 bpm: as 4 fórmulas = 400 ms (RR = 1 s)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "it",
+                "template": "documented-authored-3b140e85e5362de21283"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "it",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "it",
+                "template": "documented-authored-5fbc7ba30a68cbb8950b"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "it",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "it",
+                "template": "documented-authored-522a560400da9ebe4198"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "it",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "it",
+                "template": "documented-authored-697b9d8d75df522ead9e"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "it",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "Intervallo RR",
+                "locale": "it",
+                "template": "documented-authored-bba02ac11c176a961c19"
+              },
+              "value": {
+                "text": "1000 ms",
+                "locale": "it",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  1000
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "QTc normale",
+            "locale": "it",
+            "template": "documented-authored-05f280740a9c2be5f7e2"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "QT 360 ms, FC 100 bpm (mulher): Bazett 465 · Fridericia 427 · Framingham 422 · Hodges 430",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "it",
+                "template": "documented-authored-3b140e85e5362de21283"
+              },
+              "value": {
+                "text": "465 ms",
+                "locale": "it",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  465
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "it",
+                "template": "documented-authored-5fbc7ba30a68cbb8950b"
+              },
+              "value": {
+                "text": "427 ms",
+                "locale": "it",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  427
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "it",
+                "template": "documented-authored-522a560400da9ebe4198"
+              },
+              "value": {
+                "text": "422 ms",
+                "locale": "it",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  422
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "it",
+                "template": "documented-authored-697b9d8d75df522ead9e"
+              },
+              "value": {
+                "text": "430 ms",
+                "locale": "it",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  430
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "Intervallo RR",
+                "locale": "it",
+                "template": "documented-authored-bba02ac11c176a961c19"
+              },
+              "value": {
+                "text": "600 ms",
+                "locale": "it",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  600
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "QTc normale",
+            "locale": "it",
+            "template": "documented-authored-05f280740a9c2be5f7e2"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "QT 520 ms, FC 60 bpm: QTc > 500 ms, alto risco",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "it",
+                "template": "documented-authored-3b140e85e5362de21283"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "it",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "it",
+                "template": "documented-authored-5fbc7ba30a68cbb8950b"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "it",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "it",
+                "template": "documented-authored-522a560400da9ebe4198"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "it",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "it",
+                "template": "documented-authored-697b9d8d75df522ead9e"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "it",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "Intervallo RR",
+                "locale": "it",
+                "template": "documented-authored-bba02ac11c176a961c19"
+              },
+              "value": {
+                "text": "1000 ms",
+                "locale": "it",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  1000
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "QTc molto prolungato (> 500 ms): alto rischio di aritmia",
+            "locale": "it",
+            "template": "documented-authored-dedbb964ef870a11bfbd"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "QT 400 ms, FC 60 bpm: as 4 fórmulas = 400 ms (RR = 1 s)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "ar",
+                "template": "documented-authored-3b140e85e5362de21283"
+              },
+              "value": {
+                "text": "٤٠٠ ms",
+                "locale": "ar",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "ar",
+                "template": "documented-authored-5fbc7ba30a68cbb8950b"
+              },
+              "value": {
+                "text": "٤٠٠ ms",
+                "locale": "ar",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "ar",
+                "template": "documented-authored-522a560400da9ebe4198"
+              },
+              "value": {
+                "text": "٤٠٠ ms",
+                "locale": "ar",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "ar",
+                "template": "documented-authored-697b9d8d75df522ead9e"
+              },
+              "value": {
+                "text": "٤٠٠ ms",
+                "locale": "ar",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "فترة RR",
+                "locale": "ar",
+                "template": "documented-authored-bba02ac11c176a961c19"
+              },
+              "value": {
+                "text": "١٠٠٠ ms",
+                "locale": "ar",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  1000
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "QTc طبيعي",
+            "locale": "ar",
+            "template": "documented-authored-05f280740a9c2be5f7e2"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "QT 360 ms, FC 100 bpm (mulher): Bazett 465 · Fridericia 427 · Framingham 422 · Hodges 430",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "ar",
+                "template": "documented-authored-3b140e85e5362de21283"
+              },
+              "value": {
+                "text": "٤٦٥ ms",
+                "locale": "ar",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  465
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "ar",
+                "template": "documented-authored-5fbc7ba30a68cbb8950b"
+              },
+              "value": {
+                "text": "٤٢٧ ms",
+                "locale": "ar",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  427
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "ar",
+                "template": "documented-authored-522a560400da9ebe4198"
+              },
+              "value": {
+                "text": "٤٢٢ ms",
+                "locale": "ar",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  422
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "ar",
+                "template": "documented-authored-697b9d8d75df522ead9e"
+              },
+              "value": {
+                "text": "٤٣٠ ms",
+                "locale": "ar",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  430
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "فترة RR",
+                "locale": "ar",
+                "template": "documented-authored-bba02ac11c176a961c19"
+              },
+              "value": {
+                "text": "٦٠٠ ms",
+                "locale": "ar",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  600
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "QTc طبيعي",
+            "locale": "ar",
+            "template": "documented-authored-05f280740a9c2be5f7e2"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "QT 520 ms, FC 60 bpm: QTc > 500 ms, alto risco",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "ar",
+                "template": "documented-authored-3b140e85e5362de21283"
+              },
+              "value": {
+                "text": "٥٢٠ ms",
+                "locale": "ar",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "ar",
+                "template": "documented-authored-5fbc7ba30a68cbb8950b"
+              },
+              "value": {
+                "text": "٥٢٠ ms",
+                "locale": "ar",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "ar",
+                "template": "documented-authored-522a560400da9ebe4198"
+              },
+              "value": {
+                "text": "٥٢٠ ms",
+                "locale": "ar",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "ar",
+                "template": "documented-authored-697b9d8d75df522ead9e"
+              },
+              "value": {
+                "text": "٥٢٠ ms",
+                "locale": "ar",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "فترة RR",
+                "locale": "ar",
+                "template": "documented-authored-bba02ac11c176a961c19"
+              },
+              "value": {
+                "text": "١٠٠٠ ms",
+                "locale": "ar",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  1000
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "QTc مطوّل جدًا (> 500 ms): خطر مرتفع لاضطراب النظم",
+            "locale": "ar",
+            "template": "documented-authored-dedbb964ef870a11bfbd"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "QT 400 ms, FC 60 bpm: as 4 fórmulas = 400 ms (RR = 1 s)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "zh",
+                "template": "documented-authored-3b140e85e5362de21283"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "zh",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "zh",
+                "template": "documented-authored-5fbc7ba30a68cbb8950b"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "zh",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "zh",
+                "template": "documented-authored-522a560400da9ebe4198"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "zh",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "zh",
+                "template": "documented-authored-697b9d8d75df522ead9e"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "zh",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "RR间期",
+                "locale": "zh",
+                "template": "documented-authored-bba02ac11c176a961c19"
+              },
+              "value": {
+                "text": "1000 ms",
+                "locale": "zh",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  1000
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "QTc正常",
+            "locale": "zh",
+            "template": "documented-authored-05f280740a9c2be5f7e2"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "QT 360 ms, FC 100 bpm (mulher): Bazett 465 · Fridericia 427 · Framingham 422 · Hodges 430",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "zh",
+                "template": "documented-authored-3b140e85e5362de21283"
+              },
+              "value": {
+                "text": "465 ms",
+                "locale": "zh",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  465
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "zh",
+                "template": "documented-authored-5fbc7ba30a68cbb8950b"
+              },
+              "value": {
+                "text": "427 ms",
+                "locale": "zh",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  427
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "zh",
+                "template": "documented-authored-522a560400da9ebe4198"
+              },
+              "value": {
+                "text": "422 ms",
+                "locale": "zh",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  422
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "zh",
+                "template": "documented-authored-697b9d8d75df522ead9e"
+              },
+              "value": {
+                "text": "430 ms",
+                "locale": "zh",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  430
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "RR间期",
+                "locale": "zh",
+                "template": "documented-authored-bba02ac11c176a961c19"
+              },
+              "value": {
+                "text": "600 ms",
+                "locale": "zh",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  600
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "QTc正常",
+            "locale": "zh",
+            "template": "documented-authored-05f280740a9c2be5f7e2"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "QT 520 ms, FC 60 bpm: QTc > 500 ms, alto risco",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "zh",
+                "template": "documented-authored-3b140e85e5362de21283"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "zh",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "zh",
+                "template": "documented-authored-5fbc7ba30a68cbb8950b"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "zh",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "zh",
+                "template": "documented-authored-522a560400da9ebe4198"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "zh",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "zh",
+                "template": "documented-authored-697b9d8d75df522ead9e"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "zh",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "RR间期",
+                "locale": "zh",
+                "template": "documented-authored-bba02ac11c176a961c19"
+              },
+              "value": {
+                "text": "1000 ms",
+                "locale": "zh",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  1000
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "QTc明显延长（> 500 ms）：心律失常高风险",
+            "locale": "zh",
+            "template": "documented-authored-dedbb964ef870a11bfbd"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "QT 400 ms, FC 60 bpm: as 4 fórmulas = 400 ms (RR = 1 s)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "ja",
+                "template": "documented-authored-3b140e85e5362de21283"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "ja",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "ja",
+                "template": "documented-authored-5fbc7ba30a68cbb8950b"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "ja",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "ja",
+                "template": "documented-authored-522a560400da9ebe4198"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "ja",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "ja",
+                "template": "documented-authored-697b9d8d75df522ead9e"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "ja",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "RR間隔",
+                "locale": "ja",
+                "template": "documented-authored-bba02ac11c176a961c19"
+              },
+              "value": {
+                "text": "1000 ms",
+                "locale": "ja",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  1000
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "QTc正常",
+            "locale": "ja",
+            "template": "documented-authored-05f280740a9c2be5f7e2"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "QT 360 ms, FC 100 bpm (mulher): Bazett 465 · Fridericia 427 · Framingham 422 · Hodges 430",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "ja",
+                "template": "documented-authored-3b140e85e5362de21283"
+              },
+              "value": {
+                "text": "465 ms",
+                "locale": "ja",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  465
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "ja",
+                "template": "documented-authored-5fbc7ba30a68cbb8950b"
+              },
+              "value": {
+                "text": "427 ms",
+                "locale": "ja",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  427
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "ja",
+                "template": "documented-authored-522a560400da9ebe4198"
+              },
+              "value": {
+                "text": "422 ms",
+                "locale": "ja",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  422
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "ja",
+                "template": "documented-authored-697b9d8d75df522ead9e"
+              },
+              "value": {
+                "text": "430 ms",
+                "locale": "ja",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  430
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "RR間隔",
+                "locale": "ja",
+                "template": "documented-authored-bba02ac11c176a961c19"
+              },
+              "value": {
+                "text": "600 ms",
+                "locale": "ja",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  600
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "QTc正常",
+            "locale": "ja",
+            "template": "documented-authored-05f280740a9c2be5f7e2"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "QT 520 ms, FC 60 bpm: QTc > 500 ms, alto risco",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "ja",
+                "template": "documented-authored-3b140e85e5362de21283"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "ja",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "ja",
+                "template": "documented-authored-5fbc7ba30a68cbb8950b"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "ja",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "ja",
+                "template": "documented-authored-522a560400da9ebe4198"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "ja",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "ja",
+                "template": "documented-authored-697b9d8d75df522ead9e"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "ja",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "RR間隔",
+                "locale": "ja",
+                "template": "documented-authored-bba02ac11c176a961c19"
+              },
+              "value": {
+                "text": "1000 ms",
+                "locale": "ja",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  1000
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "QTcが著明延長（> 500 ms）：不整脈リスクが高い",
+            "locale": "ja",
+            "template": "documented-authored-dedbb964ef870a11bfbd"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "QT 400 ms, FC 60 bpm: as 4 fórmulas = 400 ms (RR = 1 s)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "hi",
+                "template": "documented-authored-3b140e85e5362de21283"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "hi",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "hi",
+                "template": "documented-authored-5fbc7ba30a68cbb8950b"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "hi",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "hi",
+                "template": "documented-authored-522a560400da9ebe4198"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "hi",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "hi",
+                "template": "documented-authored-697b9d8d75df522ead9e"
+              },
+              "value": {
+                "text": "400 ms",
+                "locale": "hi",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  400
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "RR अंतराल",
+                "locale": "hi",
+                "template": "documented-authored-bba02ac11c176a961c19"
+              },
+              "value": {
+                "text": "1000 ms",
+                "locale": "hi",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  1000
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "QTc सामान्य",
+            "locale": "hi",
+            "template": "documented-authored-05f280740a9c2be5f7e2"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "QT 360 ms, FC 100 bpm (mulher): Bazett 465 · Fridericia 427 · Framingham 422 · Hodges 430",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "hi",
+                "template": "documented-authored-3b140e85e5362de21283"
+              },
+              "value": {
+                "text": "465 ms",
+                "locale": "hi",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  465
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "hi",
+                "template": "documented-authored-5fbc7ba30a68cbb8950b"
+              },
+              "value": {
+                "text": "427 ms",
+                "locale": "hi",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  427
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "hi",
+                "template": "documented-authored-522a560400da9ebe4198"
+              },
+              "value": {
+                "text": "422 ms",
+                "locale": "hi",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  422
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "hi",
+                "template": "documented-authored-697b9d8d75df522ead9e"
+              },
+              "value": {
+                "text": "430 ms",
+                "locale": "hi",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  430
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "RR अंतराल",
+                "locale": "hi",
+                "template": "documented-authored-bba02ac11c176a961c19"
+              },
+              "value": {
+                "text": "600 ms",
+                "locale": "hi",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  600
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "QTc सामान्य",
+            "locale": "hi",
+            "template": "documented-authored-05f280740a9c2be5f7e2"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "QT 520 ms, FC 60 bpm: QTc > 500 ms, alto risco",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Bazett",
+                "locale": "hi",
+                "template": "documented-authored-3b140e85e5362de21283"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "hi",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Fridericia",
+                "locale": "hi",
+                "template": "documented-authored-5fbc7ba30a68cbb8950b"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "hi",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Framingham",
+                "locale": "hi",
+                "template": "documented-authored-522a560400da9ebe4198"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "hi",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Hodges",
+                "locale": "hi",
+                "template": "documented-authored-697b9d8d75df522ead9e"
+              },
+              "value": {
+                "text": "520 ms",
+                "locale": "hi",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  520
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "RR अंतराल",
+                "locale": "hi",
+                "template": "documented-authored-bba02ac11c176a961c19"
+              },
+              "value": {
+                "text": "1000 ms",
+                "locale": "hi",
+                "template": "documented-authored-5d647b44c0f913fbfb78",
+                "sourceNumbers": [
+                  1000
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "QTc बहुत अधिक लंबा (> 500 ms): अतालता का उच्च जोखिम",
+            "locale": "hi",
+            "template": "documented-authored-dedbb964ef870a11bfbd"
+          },
+          "level": "high"
+        }
+      }
+    ]
+  }
+}

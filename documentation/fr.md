@@ -82,3 +82,46 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+QTc normal
+
+| Détails du résultat | |
+| --- | --- |
+| Bazett | 400 ms |
+| Fridericia | 400 ms |
+| Framingham | 400 ms |
+| Hodges | 400 ms |
+| Intervalle RR | 1000 ms |
+
+
+### 2
+
+QTc normal
+
+| Détails du résultat | |
+| --- | --- |
+| Bazett | 465 ms |
+| Fridericia | 427 ms |
+| Framingham | 422 ms |
+| Hodges | 430 ms |
+| Intervalle RR | 600 ms |
+
+
+### 3
+
+QTc très prolongé (> 500 ms) : risque élevé d’arythmie
+
+| Détails du résultat | |
+| --- | --- |
+| Bazett | 520 ms |
+| Fridericia | 520 ms |
+| Framingham | 520 ms |
+| Hodges | 520 ms |
+| Intervalle RR | 1000 ms |
+

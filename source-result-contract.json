@@ -1,0 +1,260 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "qtc",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "68ec8b2d7a7d41beb516da494e2d7fab63ddee4b",
+    "oldEngineSha256": "1bb40904dc1255f6287149d7550c264312984c4620eaf06fff06b33c1fcbd3df",
+    "currentEngineSha256": "2014b0da4274afe958350910a96ce3aabcf2ffdfd72396fea6d75726a524f2c0"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "QT 400 ms, FC 60 bpm: as 4 fórmulas = 400 ms (RR = 1 s)",
+      "input": {
+        "qt": 400,
+        "fc": 60,
+        "sexo": "M"
+      },
+      "publicOutput": {
+        "id": "qtc",
+        "main": [
+          "400",
+          "ms"
+        ],
+        "label": "QTc de Fridericia (referência para esta FC)",
+        "raw": {
+          "bazett": 400,
+          "fridericia": 400,
+          "framingham": 400,
+          "hodges": 400
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "bazett": 400,
+          "fridericia": 400,
+          "framingham": 400,
+          "hodges": 400
+        },
+        "tol": 0.01,
+        "level": "low"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "400",
+          "ms"
+        ],
+        "label": "QTc de Fridericia (referência para esta FC)",
+        "level": "low",
+        "verdict": "QTc normal",
+        "rows": [
+          [
+            "Bazett",
+            "400 ms"
+          ],
+          [
+            "Fridericia",
+            "400 ms"
+          ],
+          [
+            "Framingham",
+            "400 ms"
+          ],
+          [
+            "Hodges",
+            "400 ms"
+          ],
+          [
+            "Intervalo RR",
+            "1.000 ms"
+          ]
+        ],
+        "raw": {
+          "bazett": 400,
+          "fridericia": 400,
+          "framingham": 400,
+          "hodges": 400
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "QT 360 ms, FC 100 bpm (mulher): Bazett 465 · Fridericia 427 · Framingham 422 · Hodges 430",
+      "input": {
+        "qt": 360,
+        "fc": 100,
+        "sexo": "F"
+      },
+      "publicOutput": {
+        "id": "qtc",
+        "main": [
+          "427",
+          "ms"
+        ],
+        "label": "QTc de Fridericia (referência para esta FC)",
+        "raw": {
+          "bazett": 464.75800154489,
+          "fridericia": 426.8271965388075,
+          "framingham": 421.6,
+          "hodges": 430
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "bazett": 464.8,
+          "fridericia": 426.9,
+          "framingham": 421.6,
+          "hodges": 430
+        },
+        "tol": 0.2
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "427",
+          "ms"
+        ],
+        "label": "QTc de Fridericia (referência para esta FC)",
+        "level": "low",
+        "verdict": "QTc normal",
+        "rows": [
+          [
+            "Bazett",
+            "465 ms"
+          ],
+          [
+            "Fridericia",
+            "427 ms"
+          ],
+          [
+            "Framingham",
+            "422 ms"
+          ],
+          [
+            "Hodges",
+            "430 ms"
+          ],
+          [
+            "Intervalo RR",
+            "600 ms"
+          ]
+        ],
+        "raw": {
+          "bazett": 464.75800154489,
+          "fridericia": 426.8271965388075,
+          "framingham": 421.6,
+          "hodges": 430
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "QT 520 ms, FC 60 bpm: QTc > 500 ms, alto risco",
+      "input": {
+        "qt": 520,
+        "fc": 60,
+        "sexo": "M"
+      },
+      "publicOutput": {
+        "id": "qtc",
+        "main": [
+          "520",
+          "ms"
+        ],
+        "label": "QTc de Fridericia (referência para esta FC)",
+        "raw": {
+          "bazett": 520,
+          "fridericia": 520,
+          "framingham": 520,
+          "hodges": 520
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "level": "high"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "520",
+          "ms"
+        ],
+        "label": "QTc de Fridericia (referência para esta FC)",
+        "level": "high",
+        "verdict": "QTc muito prolongado (> 500 ms): alto risco de arritmia",
+        "rows": [
+          [
+            "Bazett",
+            "520 ms"
+          ],
+          [
+            "Fridericia",
+            "520 ms"
+          ],
+          [
+            "Framingham",
+            "520 ms"
+          ],
+          [
+            "Hodges",
+            "520 ms"
+          ],
+          [
+            "Intervalo RR",
+            "1.000 ms"
+          ]
+        ],
+        "raw": {
+          "bazett": 520,
+          "fridericia": 520,
+          "framingham": 520,
+          "hodges": 520
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    }
+  ]
+}

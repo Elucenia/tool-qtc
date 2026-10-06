@@ -124,7 +124,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "QTc/Bazett 1920, Fridericia 1920, Framingham 1992, Hodges 1983; QTms/RRseg; referências AHA 2009 e Vandenberk 2016",
-    "implementationVersion": "qtc@native-2026-10-03+1bb40904dc12",
+    "implementationVersion": "qtc@native-2026-10-05+2014b0da4274",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/19228821/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -225,7 +225,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "1bb40904dc1255f6287149d7550c264312984c4620eaf06fff06b33c1fcbd3df"
+      "implementationHash": "2014b0da4274afe958350910a96ce3aabcf2ffdfd72396fea6d75726a524f2c0",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "qtc@native-2026-10-03+1bb40904dc12",
+          "previousImplementationHash": "1bb40904dc1255f6287149d7550c264312984c4620eaf06fff06b33c1fcbd3df",
+          "implementationHash": "2014b0da4274afe958350910a96ce3aabcf2ffdfd72396fea6d75726a524f2c0",
+          "scientificBodySha256": "61098e89b0cd58697b6fa0351fbf5ebebb4c5c1d13059fcf72bd9c697bc54104",
+          "metadataContractHash": "3ac5f5febc57b0112ce3d9a313c8227170866351524ed6014e739468fa9e191b",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "O estudo Vandenberk 2016 comparou correções do QT em adultos com ritmo sinusal, QRS estreito e frequência cardíaca menor que 90 bpm, em análise retrospectiva de um centro. Esses resultados não comprovam desempenho equivalente em fibrilação atrial, distúrbios da condução ou todas as frequências aceitas pelo formulário. Bazett pode superestimar o QTc em frequências altas e subestimá-lo em frequências baixas. A escolha da correção e a interpretação exigem contexto eletrocardiográfico; um valor isolado não determina tratamento.",
     "sourceLimitEvidence": {
@@ -250,20 +278,20 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/qtc/calculator.js",
-    "bytes": 5273,
-    "sha256": "1bb40904dc1255f6287149d7550c264312984c4620eaf06fff06b33c1fcbd3df"
+    "bytes": 5478,
+    "sha256": "2014b0da4274afe958350910a96ce3aabcf2ffdfd72396fea6d75726a524f2c0"
   },
-  "sourceToolSha256": "61a5925933d86f3567d87cc87c587ee49c04331e9fba4b9e6eb0135da85e6176",
+  "sourceToolSha256": "47a93c4b92da9e4ab70a9fcee3b3afff1172ced265487e6d21a60a01c564f280",
   "omittedFullReferenceBanks": [
     {
       "rows": 2,
       "sha256": "78e8452e8691552a2409ad0de9c17bb60b50d83062099ab7e96efa031a6896d7",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     },
     {
       "rows": 2,
       "sha256": "78e8452e8691552a2409ad0de9c17bb60b50d83062099ab7e96efa031a6896d7",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

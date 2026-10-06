@@ -82,3 +82,46 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+normal QTc
+
+| Result details | |
+| --- | --- |
+| Bazett | 400 ms |
+| Fridericia | 400 ms |
+| Framingham | 400 ms |
+| Hodges | 400 ms |
+| RR interval | 1000 ms |
+
+
+### 2
+
+normal QTc
+
+| Result details | |
+| --- | --- |
+| Bazett | 465 ms |
+| Fridericia | 427 ms |
+| Framingham | 422 ms |
+| Hodges | 430 ms |
+| RR interval | 600 ms |
+
+
+### 3
+
+Very prolonged QTc (> 500 ms): high risk of arrhythmia
+
+| Result details | |
+| --- | --- |
+| Bazett | 520 ms |
+| Fridericia | 520 ms |
+| Framingham | 520 ms |
+| Hodges | 520 ms |
+| RR interval | 1000 ms |
+

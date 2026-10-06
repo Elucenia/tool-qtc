@@ -82,3 +82,46 @@ tool.json 包含来源、版本和审查范围。examples.json 保留合成输�
 Apache-2.0 仅适用于 ELUCENIA 代码。工具、出版物、翻译和数据的权利仍归各自权利人所有。请保留 LICENSE 和 NOTICE。
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## 已记录的结果
+
+以下信息保留该方法对合成示例的输出，不构成独立的临床验证。
+
+### 1
+
+QTc正常
+
+| 结果详情 | |
+| --- | --- |
+| Bazett | 400 ms |
+| Fridericia | 400 ms |
+| Framingham | 400 ms |
+| Hodges | 400 ms |
+| RR间期 | 1000 ms |
+
+
+### 2
+
+QTc正常
+
+| 结果详情 | |
+| --- | --- |
+| Bazett | 465 ms |
+| Fridericia | 427 ms |
+| Framingham | 422 ms |
+| Hodges | 430 ms |
+| RR间期 | 600 ms |
+
+
+### 3
+
+QTc明显延长（> 500 ms）：心律失常高风险
+
+| 结果详情 | |
+| --- | --- |
+| Bazett | 520 ms |
+| Fridericia | 520 ms |
+| Framingham | 520 ms |
+| Hodges | 520 ms |
+| RR间期 | 1000 ms |
+
